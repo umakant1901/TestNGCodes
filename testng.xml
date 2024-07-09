@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="TestNG Code Suite">
+<groups>
+
+<run>
+<include name="functional" />
+<include name="smoke" />
+</run>
+
+</groups>
   <test thread-count="5" name="TestNG Tests">
     <classes>
-      <class name="annotationcode01.Annotation_L1"/>
+      <class name="allinone.testcases"/>
+      
     </classes>
   </test> <!-- TestNG Tests -->
 </suite> <!-- TestNG Code Suite -->

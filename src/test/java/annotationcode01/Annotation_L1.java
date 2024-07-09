@@ -12,40 +12,6 @@ import org.testng.annotations.Test;
 
 public class Annotation_L1 {
 	
-	@BeforeSuite
-	public void setUpBeforeSuite()
-	{
-		System.out.println("set Up Before Suite");
-	}
-	@AfterSuite
-	public void tearDownAfterSuite()
-	{
-		System.out.println("tear Down After Suite");
-	}
-	
-	@BeforeTest
-	public void setUpBeforeTest()
-	{
-		System.out.println("set Up Before Test");
-	}
-	
-	@AfterTest
-	public void tearDownAfterTest()
-	{
-		System.out.println("tear Down After Test");
-	}
-	
-	@BeforeClass
-	public void setUpBeforeClass()
-	{
-		System.out.println("Before class set up");
-	}
-	@AfterClass
-	public void TearDownAfterClass()
-	{
-		System.out.println("After class tear down");
-	}
-	
 	
 	@BeforeMethod
 	public void setUp()

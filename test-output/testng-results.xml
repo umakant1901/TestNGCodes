@@ -1,73 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-09T12:30:09 IST" name="TestNG Code Suite" finished-at="2024-07-09T12:30:10 IST" duration-ms="46">
+  <suite started-at="2024-07-09T13:39:57 IST" name="TestNG Code Suite" finished-at="2024-07-09T13:39:57 IST" duration-ms="110">
     <groups>
+      <group name="functional">
+        <method signature="testcases.login()[pri:1, instance:allinone.testcases@121314f7]" name="login" class="allinone.testcases"/>
+        <method signature="testcases.checkTransactions()[pri:2, instance:allinone.testcases@121314f7]" name="checkTransactions" class="allinone.testcases"/>
+        <method signature="testcases.navigationCheck()[pri:2, instance:allinone.testcases@121314f7]" name="navigationCheck" class="allinone.testcases"/>
+        <method signature="testcases.openMenu()[pri:2, instance:allinone.testcases@121314f7]" name="openMenu" class="allinone.testcases"/>
+        <method signature="testcases.openCheckBalanceOptions()[pri:3, instance:allinone.testcases@121314f7]" name="openCheckBalanceOptions" class="allinone.testcases"/>
+        <method signature="testcases.checkBalance()[pri:3, instance:allinone.testcases@121314f7]" name="checkBalance" class="allinone.testcases"/>
+        <method signature="testcases.CheckLoan()[pri:5, instance:allinone.testcases@121314f7]" name="CheckLoan" class="allinone.testcases"/>
+        <method signature="testcases.CheckRD()[pri:5, instance:allinone.testcases@121314f7]" name="CheckRD" class="allinone.testcases"/>
+        <method signature="testcases.checkFD()[pri:5, instance:allinone.testcases@121314f7]" name="checkFD" class="allinone.testcases"/>
+        <method signature="testcases.addUser()[pri:6, instance:allinone.testcases@121314f7]" name="addUser" class="allinone.testcases"/>
+        <method signature="testcases.checkHistory()[pri:6, instance:allinone.testcases@121314f7]" name="checkHistory" class="allinone.testcases"/>
+        <method signature="testcases.createNewIssue()[pri:6, instance:allinone.testcases@121314f7]" name="createNewIssue" class="allinone.testcases"/>
+        <method signature="testcases.addNomini()[pri:7, instance:allinone.testcases@121314f7]" name="addNomini" class="allinone.testcases"/>
+        <method signature="testcases.checkRegisterIssue()[pri:7, instance:allinone.testcases@121314f7]" name="checkRegisterIssue" class="allinone.testcases"/>
+        <method signature="testcases.checkBankManagerDetails()[pri:9, instance:allinone.testcases@121314f7]" name="checkBankManagerDetails" class="allinone.testcases"/>
+        <method signature="testcases.updateUserDetails()[pri:9, instance:allinone.testcases@121314f7]" name="updateUserDetails" class="allinone.testcases"/>
+        <method signature="testcases.checkFAQ()[pri:10, instance:allinone.testcases@121314f7]" name="checkFAQ" class="allinone.testcases"/>
+        <method signature="testcases.logout()[pri:10, instance:allinone.testcases@121314f7]" name="logout" class="allinone.testcases"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="testcases.login()[pri:1, instance:allinone.testcases@121314f7]" name="login" class="allinone.testcases"/>
+        <method signature="testcases.checkTransactions()[pri:2, instance:allinone.testcases@121314f7]" name="checkTransactions" class="allinone.testcases"/>
+        <method signature="testcases.openCheckBalanceOptions()[pri:3, instance:allinone.testcases@121314f7]" name="openCheckBalanceOptions" class="allinone.testcases"/>
+        <method signature="testcases.checkBalance()[pri:3, instance:allinone.testcases@121314f7]" name="checkBalance" class="allinone.testcases"/>
+        <method signature="testcases.CheckLoan()[pri:5, instance:allinone.testcases@121314f7]" name="CheckLoan" class="allinone.testcases"/>
+        <method signature="testcases.CheckRD()[pri:5, instance:allinone.testcases@121314f7]" name="CheckRD" class="allinone.testcases"/>
+        <method signature="testcases.checkBankManagerDetails()[pri:9, instance:allinone.testcases@121314f7]" name="checkBankManagerDetails" class="allinone.testcases"/>
+        <method signature="testcases.checkFAQ()[pri:10, instance:allinone.testcases@121314f7]" name="checkFAQ" class="allinone.testcases"/>
+        <method signature="testcases.logout()[pri:10, instance:allinone.testcases@121314f7]" name="logout" class="allinone.testcases"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="testcases.login()[pri:1, instance:allinone.testcases@121314f7]" name="login" class="allinone.testcases"/>
+        <method signature="testcases.addUser()[pri:6, instance:allinone.testcases@121314f7]" name="addUser" class="allinone.testcases"/>
+        <method signature="testcases.logout()[pri:10, instance:allinone.testcases@121314f7]" name="logout" class="allinone.testcases"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-07-09T12:30:09 IST" name="TestNG Tests" finished-at="2024-07-09T12:30:10 IST" duration-ms="46">
-      <class name="annotationcode01.Annotation_L1">
-        <test-method is-config="true" signature="setUpBeforeSuite()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="setUpBeforeSuite" finished-at="2024-07-09T12:30:09 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-07-09T13:39:57 IST" name="TestNG Tests" finished-at="2024-07-09T13:39:57 IST" duration-ms="110">
+      <class name="allinone.testcases">
+        <test-method signature="login()[pri:1, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="login" finished-at="2024-07-09T13:39:57 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeSuite -->
-        <test-method is-config="true" signature="setUpBeforeTest()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="setUpBeforeTest" finished-at="2024-07-09T12:30:09 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="checkTransactions()[pri:2, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkTransactions" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeTest -->
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="setUpBeforeClass" finished-at="2024-07-09T12:30:09 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- checkTransactions -->
+        <test-method signature="navigationCheck()[pri:2, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="navigationCheck" finished-at="2024-07-09T13:39:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="setUp" finished-at="2024-07-09T12:30:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- navigationCheck -->
+        <test-method signature="openMenu()[pri:2, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="openMenu" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testAnnotation1()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="testAnnotation1" finished-at="2024-07-09T12:30:09 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- openMenu -->
+        <test-method signature="openCheckBalanceOptions()[pri:3, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="openCheckBalanceOptions" finished-at="2024-07-09T13:39:57 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAnnotation1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="tearDown" finished-at="2024-07-09T12:30:09 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- openCheckBalanceOptions -->
+        <test-method signature="checkBalance()[pri:3, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkBalance" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login, allinone.testcases.openCheckBalanceOptions" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="setUp" finished-at="2024-07-09T12:30:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- checkBalance -->
+        <test-method signature="CheckLoan()[pri:5, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="CheckLoan" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testAnnotation2()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:09 IST" name="testAnnotation2" finished-at="2024-07-09T12:30:10 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- CheckLoan -->
+        <test-method signature="CheckRD()[pri:5, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="CheckRD" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAnnotation2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="tearDown" finished-at="2024-07-09T12:30:10 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- CheckRD -->
+        <test-method signature="checkFD()[pri:5, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkFD" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="testAnnotation3()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="testAnnotation3" finished-at="2024-07-09T12:30:10 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- checkFD -->
+        <test-method signature="addUser()[pri:6, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="addUser" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAnnotation3 -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="setUp" finished-at="2024-07-09T12:30:10 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- addUser -->
+        <test-method signature="checkHistory()[pri:6, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkHistory" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="tearDown" finished-at="2024-07-09T12:30:10 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- checkHistory -->
+        <test-method signature="createNewIssue()[pri:6, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="createNewIssue" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="TearDownAfterClass()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="TearDownAfterClass" finished-at="2024-07-09T12:30:10 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- createNewIssue -->
+        <test-method signature="addNomini()[pri:7, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="addNomini" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TearDownAfterClass -->
-        <test-method is-config="true" signature="tearDownAfterTest()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="tearDownAfterTest" finished-at="2024-07-09T12:30:10 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- addNomini -->
+        <test-method signature="checkRegisterIssue()[pri:7, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkRegisterIssue" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownAfterTest -->
-        <test-method is-config="true" signature="tearDownAfterSuite()[pri:0, instance:annotationcode01.Annotation_L1@11392934]" started-at="2024-07-09T12:30:10 IST" name="tearDownAfterSuite" finished-at="2024-07-09T12:30:10 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- checkRegisterIssue -->
+        <test-method signature="checkBankManagerDetails()[pri:9, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkBankManagerDetails" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownAfterSuite -->
-      </class> <!-- annotationcode01.Annotation_L1 -->
+        </test-method> <!-- checkBankManagerDetails -->
+        <test-method signature="updateUserDetails()[pri:9, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="updateUserDetails" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserDetails -->
+        <test-method signature="checkFAQ()[pri:10, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="checkFAQ" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFAQ -->
+        <test-method signature="logout()[pri:10, instance:allinone.testcases@121314f7]" started-at="2024-07-09T13:39:57 IST" name="logout" finished-at="2024-07-09T13:39:57 IST" depends-on-methods="allinone.testcases.login" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- allinone.testcases -->
     </test> <!-- TestNG Tests -->
   </suite> <!-- TestNG Code Suite -->
 </testng-results>
